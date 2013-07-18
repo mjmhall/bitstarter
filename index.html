@@ -5,17 +5,14 @@
     <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css"
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-    <script src="stylesheet" href="http://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js">
-    <script src="stylesheet" href="http://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js">
+    <script src="http://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="http://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italics,400italics,500italics,700italics" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italics,400italics,500italics,700italicshttp://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,300italic,400italics,500italic,700italic,800italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,300italic,400italics,500italic,700italic,800italic" rel="stylesheet" type="text/css">
 
-    <link type="text/css" rel="stylesheet"
-	  href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
     <style type="text/css">
-
       /* large desktop */
       @media (min-width: 980px) {
         body {
@@ -45,7 +42,7 @@
       /* All form factors */
       
       /* Main body and headings */
-
+  
       body {
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
@@ -66,10 +63,10 @@
       /* Video pitch and action */
       
       .pitch {
-        padding: 2.5% 0;
+        padding: 2.5% 0%;
       }
       .order {
-        padding 2% 0%;
+        padding: 2% 0%;
       }
       .actions {
         background-color: #343434;
@@ -90,7 +87,7 @@
         text-align: justify;
       }
       .asset {
-        padding: 2.5% 0;
+        padding: 2.5% 0%;
       }
       .footer {
         font-size: 11px;
@@ -131,7 +128,101 @@
 	  <h1>Product</h1
 	</div>
       </div>
+      <div class="row-fluid subheading">
+	<div class="span12">
+	  <p class="lead">One sentence description.</p>
+	</div>
+      </div>
       <div class="row-fluid pitch">
-	
+	<div class="span5 offset1 video">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	</div>
+	<div class="span5 actions">
+	  <div class="span8 offset2">
+	    <div class="statistics">
+	      <div class="span4">
+		<div class="linediv-l">
+		  <h3>1000</h3> <p>backers</p>
+		</div>
+	      </div>
+	      <div class="span4">
+		<div class="linediv-c">
+		  <h3>$6000</h3> <p>of $10,000</p>
+		</div>
+	      </div>
+	      <div class="span4">
+		<div class="linediv-r">
+		  <h3>10</h3> <p>days left</p>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="span10 offset1">
+	    <div class="thermometer progress active">
+	      <div class="bar bar-success" style="width: 60%;"></div>
+	      <div class="bar bar-warning" style="width: 40%;"></div>
+	    </div>
+	  </div>
+	  <div class="span6 offset3 order">
+	    <button class="btn btn-success btn-large">Preorder</button>
+	  </div>
+	  <div class="span8 offset2 social">
+
+	    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+	    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+	  </div>
+	</div>
+      </div>	
+      <div class="row-fluid section1">
+	<div class="span5 offset1 asset">
+	  <img class="img-polaroid src=http://placehold.it/480x300">
+	</div>
+	<div class="span5 copy">
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna dui, fermentum sodales metus eget, porttito            r tempus leo. Pellentesque nunc lectus, volutpat vitae adipiscing et, pretium sed dui. Curabitur sit amet sem si            t amet erat pretium volutpat eget at tellus. Fusce sed vestibulum tellus, quis bibendum odio. In in tincidunt au            gue. Sed porttitor augue neque, non porta libero mollis quis. Nulla facilisi. Sed ipsum lorem, adipiscing vel an            te ac, ultrices consequat arcu. Maecenas aliquam consectetur massa, in viverra lectus tempor quis. Praesent soll            icitudin viverra risus ac ornare. Mauris bibendum convallis laoreet. Integer nec ante lobortis, mollis lorem at,            vulputate sem. Mauris vitae nunc et odio molestie faucibus eu sit amet leo. Praesent ac pharetra erat.
+	  </p>
+	</div>
+	<div class="row-fluid faq">
+	  <div class="span10 offset1">
+	    <h3>FAQ</h3>
+	    <div class="accordian" id="accordian2">
+	      <div class="accordian-group">
+		<div class="accordian-heading">
+		  <a class="accordian-toggle" data-toggle="collapse" data-parent="#accordian2" href="#collapseOne">
+		    What does FAQ stand for?
+		  </a>
+		  <div id="collapseOne" class="accordian-body collapse">
+		    <div class="accordian inner">
+		      Frequently Asked Questions.
+		    </div>
+		  </div> 
+		</div>
+		<div class="accordian-group">
+		  <div class="accordian-heading">
+		    <a class="accordian-toggle" data-toggle="collapse" data-parent="#accordian2" href="#collapseTwo">
+		      What's a Frequently Asked Question?
+		    </a>
+		  </div>
+		</div>
+                <div id="#collapseTwo" class="accordian-body collapse">
+		  <div class="accordian-inner">
+		    A question which is regularly asked by users.
+		  </div>
+		</div>
+	    </div>
+	  </div>
+
+	</div>
+
+	<div class="row-fluid footer">
+	  <div class="span12">
+	    <p>This work is licensed under
+	      the <a href="http://creativecommons.org/licences/by-sa/3.0/">CC 
+                By-SA 3.0
+	      </a>, without all the cruft that would otherwise be 
+	      put at the bottom of the page</p>
+	  </div>
+	</div>
+    </div>
   </body>
 </html>
